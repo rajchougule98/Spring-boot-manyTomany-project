@@ -16,7 +16,7 @@ public class Customer {
 	private String cname;
 
 	private String address;
-	private int pincode;
+	private Integer pincode;
 
 	@ManyToMany(cascade = CascadeType.ALL)
 	private List<Product> prodList;
